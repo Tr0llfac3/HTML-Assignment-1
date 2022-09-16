@@ -1,0 +1,12 @@
+
+html, article, header {
+    background-color:white;  
+    margin-top: 100px;
+    max-width: 90%;
+    margin: auto;
+    height: 100%;
+}
+
+html, article::before {
+    background-color: white;
+}
