@@ -8,139 +8,141 @@
     <meta charset="UTF-8">
     <title>Examples | HTML Assignment 1</title>
 
-    <link rel="stylesheet" href="../css/wp_stylesheet.css">
+    <link rel="stylesheet" href="../css/wp_stylesheet4Main.css">
     
 </head>
 <body>
-    <header>
-        <img src="../images/wb_elements.png" alt="Image for elements page"/>
-        <h1>HTML Assignment 1: Examples</h1>
-        <nav>
-            <ul>
-                <li><a href="wp_main.html"><strong>Main Page</strong></a></li>
-                <li><a href="wp_notes.html"><strong>Notes</strong></a></li>
-                <li><a href="wp_quickReview.html"><strong>Quick Review</strong></a></li>
-                <li><a href="wp_exercises.html"><strong>Exercises</strong></a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="parallax">
+        <div class="textBlock">
+            <header>
+                <h1>HTML Assignment 1: Examples</h1>
+                <nav>
+                    <ul>
+                        <li><a href="wp_main.html"><strong>Main Page</strong></a></li>
+                        <li><a href="wp_notes.html"><strong>Notes</strong></a></li>
+                        <li><a href="wp_quickReview.html"><strong>Quick Review</strong></a></li>
+                        <li><a href="wp_exercises.html"><strong>Exercises</strong></a></li>
+                    </ul>
+                </nav>
+            </header>
 
-<article>
-    <h2>EXAMPLE 1-1</h2>
-    <p>In this example, we design an algorithm to find the perimeter and area of a<br>rectangle.</p>
-    <p>To find the perimeter and area of a rectangle, you need to know the rectangle’s<br>length and width</p>
-    <p>The perimeter and area of the rectangle are then given by the following formulas:</p>
-    <p><strong>Perimeter = 2 * (length + width)</strong></p>
-    <p><strong>Area = length * width</strong></p>
-    <p>The algorithm to find the perimeter and area of the rectangle is:</p>
-    <ul>
-        <li>Get the length of the rectangle.</li>
-        <li>Get the width of the rectangle.</li>
-        <li>Find the perimeter using the following equation: 
-            <ul>
-                <li><strong>Perimeter = 2 * (length + width)</strong></li>
-            </ul>
-        </li>
-        <li>Find the area using the following equation:
-            <ul>
-                <li><strong>Area = length + width</strong></li>
-            </ul>
-        </li>
-    </ul>
-    <hr>
-    <h2>EXAMPLE 1-2</h2>
-    <p>In this example, we design an algorithm that calculates the sales tax and the price of<br>an item sold in a particular state.
-        <br><br>
-        The sales tax is calculated as follows: The state’s portion of the sales tax is 4%, and<br>
-        the city’s portion of the sales tax is 1.5%. If the item is a luxury item, such as a car <br>
-        ore than $50,000, then there is a 10% luxury tax.
-        <br><br>
-        To calculate the price of the item, we need to calculate the state’s portion of the<br>
-        sales tax, the city’s portion of the sales tax, and, if it is a luxury item, the luxury tax.<br>
-        Suppose <strong>salePrice</strong> denotes the selling price of the item, <strong>stateSalesTax</strong> denotes<br>
-        the state’s sale tax, <strong>citySalesTax</strong> denotes the city’s sales tax, <strong>luxuryTax</strong> denotes<br>
-        the luxury tax, <strong>salesTax</strong> denotes the total sales tax, and <strong>amountDue</strong> denotes the<br>
-        final price of the item.
-        <br><br>
-        To calculate the sales tax, we must know the selling price of the item and whether<br>
-        the item is a luxury item.
-        <br><br>
-        The <strong>stateSalesTax</strong> and <strong>citySalesTax</strong> can be calculated using the following<br>
-        formulas
-    </p>
-        <pre>
-            <code>
-    <strong>stateSalesTax</strong> = <strong>salesPrice</strong> * 0.04
-    <strong>citySalesTax</strong> = <strong>salesPrice</strong> * 0.015
-            </code>
-        </pre>
+            <article>
+                <h2>EXAMPLE 1-1</h2>
+                <p>In this example, we design an algorithm to find the perimeter and area of a<br>rectangle.</p>
+                <p>To find the perimeter and area of a rectangle, you need to know the rectangle’s<br>length and width</p>
+                <p>The perimeter and area of the rectangle are then given by the following formulas:</p>
+                <p><strong>Perimeter = 2 * (length + width)</strong></p>
+                <p><strong>Area = length * width</strong></p>
+                <p>The algorithm to find the perimeter and area of the rectangle is:</p>
+                <ul>
+                    <li>Get the length of the rectangle.</li>
+                    <li>Get the width of the rectangle.</li>
+                    <li>Find the perimeter using the following equation: 
+                        <ul>
+                            <li><strong>Perimeter = 2 * (length + width)</strong></li>
+                        </ul>
+                    </li>
+                    <li>Find the area using the following equation:
+                        <ul>
+                            <li><strong>Area = length + width</strong></li>
+                        </ul>
+                    </li>
+                </ul>
+                <hr>
+                <h2>EXAMPLE 1-2</h2>
+                <p>In this example, we design an algorithm that calculates the sales tax and the price of<br>an item sold in a particular state.
+                    <br><br>
+                    The sales tax is calculated as follows: The state’s portion of the sales tax is 4%, and<br>
+                    the city’s portion of the sales tax is 1.5%. If the item is a luxury item, such as a car <br>
+                    ore than $50,000, then there is a 10% luxury tax.
+                    <br><br>
+                    To calculate the price of the item, we need to calculate the state’s portion of the<br>
+                    sales tax, the city’s portion of the sales tax, and, if it is a luxury item, the luxury tax.<br>
+                    Suppose <strong>salePrice</strong> denotes the selling price of the item, <strong>stateSalesTax</strong> denotes<br>
+                    the state’s sale tax, <strong>citySalesTax</strong> denotes the city’s sales tax, <strong>luxuryTax</strong> denotes<br>
+                    the luxury tax, <strong>salesTax</strong> denotes the total sales tax, and <strong>amountDue</strong> denotes the<br>
+                    final price of the item.
+                    <br><br>
+                    To calculate the sales tax, we must know the selling price of the item and whether<br>
+                    the item is a luxury item.
+                    <br><br>
+                    The <strong>stateSalesTax</strong> and <strong>citySalesTax</strong> can be calculated using the following<br>
+                    formulas
+                </p>
+                    <pre>
+                        <code>
+                <strong>stateSalesTax</strong> = <strong>salesPrice</strong> * 0.04
+                <strong>citySalesTax</strong> = <strong>salesPrice</strong> * 0.015
+                        </code>
+                    </pre>
 
-       <p>Next, you can determine <strong>luxuryTax</strong> as follows:</p>
-        <pre>
-            <code>
-    if (item is a luxury item)
-        luxuryTax = salesPrice * 0.1
-    otherwise
-        luxuryTax = 0
-            </code>
-        </pre>
-        <p>Next, you can determine <strong>salesTax</strong> as follows:</p>
-        <pre>
-            <code>
-    salesTax = stateSalesTax + citySalesTax + luxuryTax
-            </code>
-        </pre>
-        <p>Finally, you can calculate <strong>amountDue</strong> as follows:</p>
-        <pre>
-            <code>
-    amountDue =  salesPrice + salesTax
-            </code>
-        </pre>
-        <p>
-                The algorithm to determine <strong>salesTax</strong> and <strong>amountDue</strong> is, therefore:</p>
-            <ul>
-                <li>Get the selling price of the item.</li>
-                <li>Determine whether the item is a luxury item.</li>
-                <li>Find the state’s portion of the sales tax using the formula:
-                    <ul>
-                        <li>
-                            stateSalesTax = salePrice * 0.04
-                        </li>
-                    </ul>
-                </li>
-                <li>Find the city’s oirtion of the sales tax using the formula:
-                    <ul>
-                        <li>citySalesTax = salesPrice * 0.015</li>
-                    </ul>
-                </li>
-                <li>Find the luxury tax using the following formula:</li>
-            </ul>
-        
-        <pre>
-            <code>
-    If (item is a luxury item)
-        luxuryTax = salePrice * 0.1
-    otherwise
-        luxuryTax = 0
-            </code>
-        </pre>
-            <ul>
-                <li>Find salesTax using the formula:
-                    <ul>
-                        <li>salesTax = stateSalesTax + cotySalesTax + luxuryTax</li>
-                    </ul>
-                </li>
-                <li>Find amountDue using the formula
-                    <ul>
-                        <li>amountDue = salePrice + salesTax</li> 
-                    </ul>
-                </li>
-            </ul>
-        <hr>
-</article>
-<footer>
-    Kaileb Hinterberger &#8226; 9/15/2022 &#8226; Assignment 1
-    nobody@nowhere.com &#8226; (555) 555-5555 &#8226; ECTS 8500 Oliver Rd Erie PA, 16509
-</footer>
+                   <p>Next, you can determine <strong>luxuryTax</strong> as follows:</p>
+                    <pre>
+                        <code>
+                if (item is a luxury item)
+                    luxuryTax = salesPrice * 0.1
+                otherwise
+                    luxuryTax = 0
+                        </code>
+                    </pre>
+                    <p>Next, you can determine <strong>salesTax</strong> as follows:</p>
+                    <pre>
+                        <code>
+                salesTax = stateSalesTax + citySalesTax + luxuryTax
+                        </code>
+                    </pre>
+                    <p>Finally, you can calculate <strong>amountDue</strong> as follows:</p>
+                    <pre>
+                        <code>
+                amountDue =  salesPrice + salesTax
+                        </code>
+                    </pre>
+                    <p>
+                            The algorithm to determine <strong>salesTax</strong> and <strong>amountDue</strong> is, therefore:</p>
+                        <ul>
+                            <li>Get the selling price of the item.</li>
+                            <li>Determine whether the item is a luxury item.</li>
+                            <li>Find the state’s portion of the sales tax using the formula:
+                                <ul>
+                                    <li>
+                                        stateSalesTax = salePrice * 0.04
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>Find the city’s oirtion of the sales tax using the formula:
+                                <ul>
+                                    <li>citySalesTax = salesPrice * 0.015</li>
+                                </ul>
+                            </li>
+                            <li>Find the luxury tax using the following formula:</li>
+                        </ul>
+                    
+                    <pre>
+                        <code>
+                If (item is a luxury item)
+                    luxuryTax = salePrice * 0.1
+                otherwise
+                    luxuryTax = 0
+                        </code>
+                    </pre>
+                        <ul>
+                            <li>Find salesTax using the formula:
+                                <ul>
+                                    <li>salesTax = stateSalesTax + cotySalesTax + luxuryTax</li>
+                                </ul>
+                            </li>
+                            <li>Find amountDue using the formula
+                                <ul>
+                                    <li>amountDue = salePrice + salesTax</li> 
+                                </ul>
+                            </li>
+                        </ul>
+                    <hr>
+            </article>
+            <footer>
+                Kaileb Hinterberger &#8226; 9/15/2022 &#8226; Assignment 1 &#8226; nobody@nowhere.com &#8226; (555) 555-5555 &#8226; ECTS 8500 Oliver Rd Erie PA, 16509
+            </footer>
+        </div>
+    </div>
 </body>
 </html>
