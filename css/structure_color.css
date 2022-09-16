@@ -1,0 +1,59 @@
+body{
+	max-width:90%;
+	margin: auto;
+}
+header, article, footer{
+	padding: 20px;
+}
+header{
+	background-color:lightgray;
+}
+article{
+	background-color:lightblue;
+}
+footer{
+	background-color:pink;
+	text-align: center;
+}
+ul{
+	background-color: yellow;
+}
+em{
+	background-color: #56f556;
+}
+strong{
+	background-color: #f194f1;
+}
+h1{
+	background-color: black;
+	color: white;
+}
+p{
+	background-color: #edb430;
+}
+
+dl{
+	background-color: blue;
+}
+dt{
+	background-color: #fd73b6;
+	font-weight: bold;
+}
+dd{
+	background-color: #a3f7a3;
+}
+address{
+	background-color: #908c8c;
+	font-weight: bold;
+}
+
+blockquote{
+	background-color: aqua;
+	border: 3px solid black;
+	font-weight: bold;
+}
+
+address:after{
+	content:"(address)";
+	float: right;
+}

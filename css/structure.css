@@ -1,0 +1,61 @@
+body{
+	max-width:90%;
+	margin: auto;
+}
+header, article, footer{
+	padding: 20px;
+}
+
+header:before{
+	content:"(header)";
+	float: right;
+}
+
+article:before{
+	content:"(article)";
+	float: right;
+}
+footer:before{
+	content:"(footer)";
+	float: right;
+}
+ul:before{
+	content:"(ul)";
+	float: right;
+}
+em:before{
+	content:"(em)";
+	float: right;
+}
+strong:before{
+	content:"(strong)";
+	float: right;
+}
+h1:before{
+	content:"(h1)";
+	float: right;
+}
+p:before{
+	content:"(p)";
+	float: right;
+}
+dl:before{
+	content:"(dl)";
+	float: right;
+}
+dt:before{
+	content:"(dt)";
+	float: right;
+}
+dd:before{
+	content:"(dd)";
+	float: right;
+}
+blockquote:before{
+	content:"(blockquote)";
+	float: right;
+}
+address:before{
+	content:"(address)";
+	float: right;
+}
