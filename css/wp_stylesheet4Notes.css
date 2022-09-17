@@ -5,17 +5,13 @@ body, html {
   .parallax {
     /* The image used */
     background-image: url("../images/wb_startPageImg.png");
-  
-    /* Full height */
-    height: 100%;
-  
+    
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
-    position: relative;
   }
 
   /* Aligns the text and makes it a block */
@@ -25,12 +21,10 @@ body, html {
     margin-left: auto;
     margin-right: auto;
     width:100%;
-    height: 100%;
-    position: absolute;
     background-color: black;
     color: white;
-    text-align: center;
+    text-align: left;
     list-style-position: inside;
     opacity: 95%;
-
+    text-indent: 2em;
   }
